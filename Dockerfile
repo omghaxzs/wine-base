@@ -1,5 +1,7 @@
 FROM debian:bookworm
 
+LABEL org.opencontainers.image.source=https://github.com/omghaxzs/wine-base
+
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN echo deb http://deb.debian.org/debian bookworm contrib non-free\\n\
